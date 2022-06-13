@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    color: #777;
+}
+
+html,body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    background-color: #777;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 1px solid white;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.game-name {
+    color: yellowgreen;
+}
+.game-name-center {
+    text-align: center;
+}
+
+.main-header {
+    background-image:url("/images/fut-background.png");
+    background-size: cover;
+    padding-bottom: 30px;   
+}
+
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-fut-image {
+    float: left;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+
+.main-footer{
+    background-color: #201E20;
+    padding: 2em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+
+
+
+
+
+
