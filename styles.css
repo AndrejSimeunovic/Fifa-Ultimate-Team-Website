@@ -77,11 +77,11 @@ body {
 }
 
 .main-footer {
-    position: absolute;
+    position:static;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: #201E20;
 }
 
@@ -98,4 +98,56 @@ body {
 .footer-nav img {
     width: 30px;
     height: 30px;
+}
+
+.row-container {
+    border-bottom: 1px solid gray;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.row-container:last-child {
+    border-bottom: none;
+}
+
+.event-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.event-date {
+    color: #555;
+    font-weight: bold;
+    width: 13%;
+}
+
+.event-place {
+    width: 24%;
+}
+
+.event-name {
+    width: 42%;
+}
+
+.event-btn {
+    max-width: 19%;
+}
+
+.btn {
+    text-align: center;
+    padding: .5em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
 }
