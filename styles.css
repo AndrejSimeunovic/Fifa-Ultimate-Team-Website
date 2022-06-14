@@ -3,11 +3,16 @@
     color: #777;
 }
 
-html,body {
-
+html,
+body {
     margin: 0;
     padding: 0;
+}
 
+.main-header {
+    background-image: url("/images/fut-background.png");
+    background-size: cover;
+    padding-bottom: 30px;
 }
 
 .nav ul {
@@ -17,6 +22,7 @@ html,body {
 .nav li {
     display: inline;
 }
+
 .nav a {
     display: inline-block;
     padding: .5em;
@@ -24,7 +30,7 @@ html,body {
     text-decoration: none;
 }
 
-.nav li:hover {
+.nav a:hover {
     background-color: #777;
 }
 
@@ -41,16 +47,10 @@ html,body {
 .game-name {
     color: yellowgreen;
 }
+
 .game-name-center {
     text-align: center;
 }
-
-.main-header {
-    background-image:url("/images/fut-background.png");
-    background-size: cover;
-    padding-bottom: 30px;   
-}
-
 
 .content-section {
     margin: 1em;
@@ -73,26 +73,29 @@ html,body {
     float: left;
     border-radius: 50%;
     margin-right: 15px;
-    
+
 }
 
-.main-footer{
+.main-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
     background-color: #201E20;
-    padding: 2em 0;
 }
 
 .main-footer-container {
     display: flex;
     align-items: center;
 }
+
 .main-footer-container ul {
     flex-grow: 1;
     text-align: end;
 }
 
-
-
-
-
-
-
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
