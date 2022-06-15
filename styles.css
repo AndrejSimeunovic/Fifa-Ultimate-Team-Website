@@ -77,10 +77,6 @@ body {
 }
 
 .main-footer {
-    position:static;
-    right: 0;
-    bottom: 0;
-    left: 0;
     padding: 1.5rem;
     background-color: #201E20;
 }
@@ -150,4 +146,39 @@ body {
 
 .btn-primary:hover {
     background-color: #2D9CDB;
+}
+
+.players-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.player-item {
+    margin: 60px;
+}
+
+.player-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.player-item-image {
+    height: 250px;
+}
+
+.player-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.player-item-price {
+    flex-grow: 1;
+    color: #333;
 }
