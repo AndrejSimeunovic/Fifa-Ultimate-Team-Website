@@ -6,11 +6,10 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to right,orange,purple);
+    background-image: linear-gradient(135deg,orange,purple);
 }
 
 .container{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,12 +17,16 @@ body {
 }
 
 .form-box {
-    border: 1px solid red;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(2,200px);
     gap: 30px;
     padding: 30px;
+    border-radius: .3em;
+    padding: 50px;
+    background-image: linear-gradient(135deg,purple,orange);
+    color: white;
+
 
 }
 
@@ -45,6 +48,8 @@ button {
 
 .title {
     grid-column: 1 / 3;
+    text-align: center;
+    border-bottom: 1px solid white;
 }
 
 .input-box{
@@ -56,6 +61,25 @@ button {
     margin-bottom: 8px;
 }
 
-.checkbox {
-border-radius: 50%;
+input {
+    border-radius: .3em;
+    box-shadow: 0 0 0 0 0 #333;
+    padding: 10px;
 }
+
+
+
+button {
+    background-image: linear-gradient(135deg,orange,purple);
+    color: aliceblue;
+    padding: 10px;
+    cursor: pointer
+}
+
+button:hover {
+    background-image: linear-gradient(135deg,purple,orange);
+}
+
+
+
+
